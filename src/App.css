@@ -1,0 +1,98 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.App {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575756;
+  margin-left: 0px;
+  box-shadow: inset 0 0 0 4px #ddd6e8;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  background: transparent;
+  margin-bottom: 30px;
+}
+
+button {
+  border: 1px solid #7abfc3;
+  border-radius: 10px;
+  background: #bdecc4;
+  padding: 0 15px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.item {
+  padding: 10px;
+  background: #ddd6e8;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+li {
+  display: block;
+  padding: .4em .4em .4em .8em;
+  margin: .5em 0.5em;
+  font-size: 18px;
+  color: #274b47;
+  background: #ddd6e8;
+}
+
+.par {
+  background: #c6b8c8;
+  padding: .4em .4em .4em .8em;
+  margin: .5em 0.5em;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #274b47;
+}
+
+h1, h2, li, h4, p {
+  font-family: 'Roboto', sans-serif;
+  color: #274b47;
+}
+
+h1, h2 {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #274b47;
+  margin: 5px;
+}
